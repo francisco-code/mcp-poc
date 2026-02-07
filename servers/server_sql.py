@@ -3,6 +3,7 @@ import psycopg2, json
 
 mcp = FastMCP("SQL", dependencies=["psycopg2"])
 
+#Base aberta de testes online
 SERVER = "143.244.215.137"
 PORT = "5432"
 DATABASE = "novadrive"
